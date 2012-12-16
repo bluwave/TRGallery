@@ -10,20 +10,21 @@
 		3B026653167D42F00046529A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B026652167D42F00046529A /* UIKit.framework */; };
 		3B026655167D42F00046529A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B026654167D42F00046529A /* Foundation.framework */; };
 		3B026657167D42F00046529A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B026656167D42F00046529A /* CoreGraphics.framework */; };
-		3B02665D167D42F10046529A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B02665B167D42F00046529A /* InfoPlist.strings */; };
-		3B02665F167D42F10046529A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02665E167D42F10046529A /* main.m */; };
-		3B026663167D42F10046529A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B026662167D42F10046529A /* AppDelegate.m */; };
-		3B026665167D42F10046529A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B026664167D42F10046529A /* Default.png */; };
-		3B026667167D42F10046529A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B026666167D42F10046529A /* Default@2x.png */; };
-		3B026669167D42F10046529A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B026668167D42F10046529A /* Default-568h@2x.png */; };
-		3B02666C167D42F10046529A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02666B167D42F10046529A /* ViewController.m */; };
-		3B02666F167D42F10046529A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B02666D167D42F10046529A /* ViewController_iPhone.xib */; };
-		3B026672167D42F10046529A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B026670167D42F10046529A /* ViewController_iPad.xib */; };
 		3B02667A167D42F10046529A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B026679167D42F10046529A /* SenTestingKit.framework */; };
 		3B02667B167D42F10046529A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B026652167D42F00046529A /* UIKit.framework */; };
 		3B02667C167D42F10046529A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B026654167D42F00046529A /* Foundation.framework */; };
 		3B026684167D42F10046529A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B026682167D42F10046529A /* InfoPlist.strings */; };
 		3B026687167D42F10046529A /* TRGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B026686167D42F10046529A /* TRGalleryTests.m */; };
+		3B0266A5167D43660046529A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B026695167D43660046529A /* AppDelegate.m */; };
+		3B0266A6167D43660046529A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B026696167D43660046529A /* Default-568h@2x.png */; };
+		3B0266A7167D43660046529A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B026697167D43660046529A /* Default.png */; };
+		3B0266A8167D43660046529A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B026698167D43660046529A /* Default@2x.png */; };
+		3B0266A9167D43660046529A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B02669A167D43660046529A /* InfoPlist.strings */; };
+		3B0266AA167D43660046529A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B02669C167D43660046529A /* ViewController_iPad.xib */; };
+		3B0266AB167D43660046529A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B02669E167D43660046529A /* ViewController_iPhone.xib */; };
+		3B0266AC167D43660046529A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0266A0167D43660046529A /* main.m */; };
+		3B0266AE167D43660046529A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0266A4167D43660046529A /* ViewController.m */; };
+		3B0266B1167D439A0046529A /* TRGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0266B0167D439A0046529A /* TRGalleryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,25 +42,27 @@
 		3B026652167D42F00046529A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B026654167D42F00046529A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B026656167D42F00046529A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3B02665A167D42F00046529A /* TRGallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRGallery-Info.plist"; sourceTree = "<group>"; };
-		3B02665C167D42F00046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3B02665E167D42F10046529A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B026660167D42F10046529A /* TRGallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRGallery-Prefix.pch"; sourceTree = "<group>"; };
-		3B026661167D42F10046529A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B026662167D42F10046529A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B026664167D42F10046529A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		3B026666167D42F10046529A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3B026668167D42F10046529A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3B02666A167D42F10046529A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B02666B167D42F10046529A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B02666E167D42F10046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		3B026671167D42F10046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		3B026678167D42F10046529A /* TRGalleryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRGalleryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B026679167D42F10046529A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3B026681167D42F10046529A /* TRGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		3B026683167D42F10046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B026685167D42F10046529A /* TRGalleryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRGalleryTests.h; sourceTree = "<group>"; };
 		3B026686167D42F10046529A /* TRGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRGalleryTests.m; sourceTree = "<group>"; };
+		3B026694167D43660046529A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ExampleApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		3B026695167D43660046529A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ExampleApp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		3B026696167D43660046529A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ExampleApp/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		3B026697167D43660046529A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ExampleApp/Default.png; sourceTree = SOURCE_ROOT; };
+		3B026698167D43660046529A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "ExampleApp/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		3B02669B167D43660046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		3B02669D167D43660046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		3B02669F167D43660046529A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3B0266A0167D43660046529A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ExampleApp/main.m; sourceTree = SOURCE_ROOT; };
+		3B0266A1167D43660046529A /* TRGallery-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TRGallery-Info.plist"; path = "ExampleApp/TRGallery-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3B0266A2167D43660046529A /* TRGallery-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TRGallery-Prefix.pch"; path = "ExampleApp/TRGallery-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3B0266A3167D43660046529A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ExampleApp/ViewController.h; sourceTree = SOURCE_ROOT; };
+		3B0266A4167D43660046529A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ExampleApp/ViewController.m; sourceTree = SOURCE_ROOT; };
+		3B0266AF167D439A0046529A /* TRGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRGalleryViewController.h; path = TRGallery/TRGalleryViewController.h; sourceTree = "<group>"; };
+		3B0266B0167D439A0046529A /* TRGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRGalleryViewController.m; path = TRGallery/TRGalleryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +92,8 @@
 		3B026643167D42F00046529A = {
 			isa = PBXGroup;
 			children = (
-				3B026658167D42F00046529A /* TRGallery */,
+				3B026690167D43100046529A /* TRGallery */,
+				3B026658167D42F00046529A /* ExampleApp */,
 				3B02667F167D42F10046529A /* TRGalleryTests */,
 				3B026651167D42F00046529A /* Frameworks */,
 				3B02664F167D42F00046529A /* Products */,
@@ -116,30 +120,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3B026658167D42F00046529A /* TRGallery */ = {
+		3B026658167D42F00046529A /* ExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				3B026661167D42F10046529A /* AppDelegate.h */,
-				3B026662167D42F10046529A /* AppDelegate.m */,
-				3B02666A167D42F10046529A /* ViewController.h */,
-				3B02666B167D42F10046529A /* ViewController.m */,
-				3B02666D167D42F10046529A /* ViewController_iPhone.xib */,
-				3B026670167D42F10046529A /* ViewController_iPad.xib */,
+				3B026694167D43660046529A /* AppDelegate.h */,
+				3B026695167D43660046529A /* AppDelegate.m */,
+				3B026699167D43660046529A /* en.lproj */,
+				3B0266A3167D43660046529A /* ViewController.h */,
+				3B0266A4167D43660046529A /* ViewController.m */,
 				3B026659167D42F00046529A /* Supporting Files */,
 			);
+			name = ExampleApp;
 			path = TRGallery;
 			sourceTree = "<group>";
 		};
 		3B026659167D42F00046529A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B02665A167D42F00046529A /* TRGallery-Info.plist */,
-				3B02665B167D42F00046529A /* InfoPlist.strings */,
-				3B02665E167D42F10046529A /* main.m */,
-				3B026660167D42F10046529A /* TRGallery-Prefix.pch */,
-				3B026664167D42F10046529A /* Default.png */,
-				3B026666167D42F10046529A /* Default@2x.png */,
-				3B026668167D42F10046529A /* Default-568h@2x.png */,
+				3B026696167D43660046529A /* Default-568h@2x.png */,
+				3B026697167D43660046529A /* Default.png */,
+				3B026698167D43660046529A /* Default@2x.png */,
+				3B02669A167D43660046529A /* InfoPlist.strings */,
+				3B0266A0167D43660046529A /* main.m */,
+				3B0266A1167D43660046529A /* TRGallery-Info.plist */,
+				3B0266A2167D43660046529A /* TRGallery-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +166,25 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		3B026690167D43100046529A /* TRGallery */ = {
+			isa = PBXGroup;
+			children = (
+				3B0266AF167D439A0046529A /* TRGalleryViewController.h */,
+				3B0266B0167D439A0046529A /* TRGalleryViewController.m */,
+			);
+			name = TRGallery;
+			sourceTree = "<group>";
+		};
+		3B026699167D43660046529A /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3B02669C167D43660046529A /* ViewController_iPad.xib */,
+				3B02669E167D43660046529A /* ViewController_iPhone.xib */,
+			);
+			name = en.lproj;
+			path = ExampleApp/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -234,12 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B02665D167D42F10046529A /* InfoPlist.strings in Resources */,
-				3B026665167D42F10046529A /* Default.png in Resources */,
-				3B026667167D42F10046529A /* Default@2x.png in Resources */,
-				3B026669167D42F10046529A /* Default-568h@2x.png in Resources */,
-				3B02666F167D42F10046529A /* ViewController_iPhone.xib in Resources */,
-				3B026672167D42F10046529A /* ViewController_iPad.xib in Resources */,
+				3B0266A6167D43660046529A /* Default-568h@2x.png in Resources */,
+				3B0266A7167D43660046529A /* Default.png in Resources */,
+				3B0266A8167D43660046529A /* Default@2x.png in Resources */,
+				3B0266A9167D43660046529A /* InfoPlist.strings in Resources */,
+				3B0266AA167D43660046529A /* ViewController_iPad.xib in Resources */,
+				3B0266AB167D43660046529A /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B02665F167D42F10046529A /* main.m in Sources */,
-				3B026663167D42F10046529A /* AppDelegate.m in Sources */,
-				3B02666C167D42F10046529A /* ViewController.m in Sources */,
+				3B0266A5167D43660046529A /* AppDelegate.m in Sources */,
+				3B0266AC167D43660046529A /* main.m in Sources */,
+				3B0266AE167D43660046529A /* ViewController.m in Sources */,
+				3B0266B1167D439A0046529A /* TRGalleryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,36 +323,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B02665B167D42F00046529A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B02665C167D42F00046529A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3B02666D167D42F10046529A /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B02666E167D42F10046529A /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		3B026670167D42F10046529A /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B026671167D42F10046529A /* en */,
-			);
-			name = ViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
 		3B026682167D42F10046529A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3B026683167D42F10046529A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B02669A167D43660046529A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B02669B167D43660046529A /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ../ExampleApp/en.lproj;
+			sourceTree = "<group>";
+		};
+		3B02669C167D43660046529A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B02669D167D43660046529A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		3B02669E167D43660046529A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B02669F167D43660046529A /* en */,
+			);
+			name = ViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,8 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TRGallery/TRGallery-Prefix.pch";
-				INFOPLIST_FILE = "TRGallery/TRGallery-Info.plist";
+				GCC_PREFIX_HEADER = "ExampleApp/TRGallery-Prefix.pch";
+				INFOPLIST_FILE = "ExampleApp/TRGallery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,8 +426,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TRGallery/TRGallery-Prefix.pch";
-				INFOPLIST_FILE = "TRGallery/TRGallery-Info.plist";
+				GCC_PREFIX_HEADER = "ExampleApp/TRGallery-Prefix.pch";
+				INFOPLIST_FILE = "ExampleApp/TRGallery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +486,7 @@
 				3B02668C167D42F10046529A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B02668D167D42F10046529A /* Build configuration list for PBXNativeTarget "TRGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +495,7 @@
 				3B02668F167D42F10046529A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
